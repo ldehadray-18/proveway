@@ -1,0 +1,119 @@
+.border {
+    margin: auto;
+    padding: 0px;
+    width: 200px;
+    border: 3px solid #e0e0e0;
+    display: inline-block;
+}
+
+.heading-Box {
+    text-align: center;
+    width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+
+    margin-top: 25px;
+
+}
+
+.heading-content {
+    padding: 5px;
+    font-size: 20px;
+    width: 180px;
+    color: #248d73;
+}
+
+.first-box {
+    border: 3px solid #e0e0e0;
+    margin: auto;
+    width: 500px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    padding: 15px;
+}
+
+.first-box-click {
+    background-color: #dcf4ec;
+    border: 3px solid #c8e3dd;
+    accent-color: #248d73;
+}
+
+.lable {
+    width: 30px;
+}
+
+.first-fox-distance {
+    position: absolute;
+    line-height: 60px;
+    right: 30px;
+    font-weight: bold;
+    color: #5a5a5a;
+    font-size: 18px;
+}
+
+.price {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+    color: #5a5a5a;
+}
+
+.table-head {
+    color: #686c6b;
+    margin-left: 15px;
+
+
+}
+
+.select {
+    padding: 5px;
+    width: 90px;
+    background-color: white;
+    border: 1px solid rgb(189, 188, 188);
+    margin: 3px;
+    color: #686c6b;
+}
+
+.line-break {
+    color: #a8a8a8;
+    font-size: 14px;
+    margin: 80px;
+}
+
+.second-fox-distance {
+    position: absolute;
+    right: 30px;
+    top: 20px;
+    font-weight: bold;
+    color: #5a5a5a;
+    font-size: 18px;
+}
+
+.adjust {
+    display: flex;
+    justify-content: space-between;
+}
+
+.color-green {
+    color: #248d73;
+}
+
+
+.free-day {
+    color: #71baaf;
+}
+
+.Add-Cart {
+    background-color: #248d73;
+    text-align: center;
+    padding: auto;
+    width: 500px;
+    margin: auto;
+    margin-top: 30px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+}
