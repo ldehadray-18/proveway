@@ -3,7 +3,7 @@
   <span class="heading-content"> Bundle & Save</span>
   <span class="border"></span>
 </div>
-<div class="first-box" [ngClass]="{'first-box-click':first==true }">
+<div class="first-box" [ngClass]="{'first-box-click':first }">
   <div>
     <input type="radio" id="1Pair" name="1Pair" value="1Pair" (change)="change('first')">
       <label for="1Pair">1 Pair <div class="price"> DKK 195.00</div></label><br>
@@ -60,10 +60,11 @@
   </div>
   <div class=first-fox-distance> 50% OFF</div>
 </div>''
-<div class="first-box" [ngClass]="{'first-box-click':second==true }">
+<div class="first-box-second" [ngClass]="{'first-box-click':second }">
   <div>
     <input type="radio" id="1Pair" name="1Pair" value="1Pair" (change)="change('second')">
-      <label for="1Pair">2 Pair <div class="price"> DKK 345.00 <span class="line-break"> DKK 195.00</span> </div>
+      <label for="1Pair">2 Pair <div class="price"> DKK 345.00 <span class="line-break"> <del> DKK 195.00 </del></span>
+      </div>
     </label>
     <table class="table-head" *ngIf="second">
       <tr>
@@ -118,11 +119,11 @@
   </div>
   <div class=second-fox-distance>
     <span class="color-green"> Most Popular </span>
-    <div style="position: absolute; right: 0px;"> 50% OFF</div>
+    <div style="position: absolute; right: 0px;"> 40% OFF</div>
 
   </div>
 </div>
-<div class="first-box" [ngClass]="{'first-box-click':third==true }">
+<div class="first-box" [ngClass]="{'first-box-click':third }">
   <div>
     <input type="radio" id="1Pair" name="1Pair" value="1Pair" (change)="change('third')">
       <label for="1Pair">3 Pair <div class="price"> DKK 528.00</div></label><br>
